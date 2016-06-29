@@ -2,7 +2,7 @@
 <manifest>
     <project path="device/lge/w5" name="relyt2012/android_device_lge_w5" remote="github" revision="tesla-6.0" />
     <project path="device/lge/msm8226-common" name="relyt2012/android_device_lge_msm8226-common" remote="github" revision="tesla-6.0" />   
-    <project path="proprietary_vendor_lge/w5" name="TheMuppets/proprietary_vendor_lge/w5" remote="github" revision="cm-13.0" />
-    <project path="proprietary_vendor_lge/msm8226-common" name="TheMuppets/proprietary_vendor_lge/msm8226-common" remote="github" revision="cm-13.0" />
+    <project path="proprietary_vendor_lge/w5" name="relyt2012/proprietary_vendor_lge/w5" remote="github" revision="cm-13.0" />
+    <project path="proprietary_vendor_lge/msm8226-common" name="relyt2012/proprietary_vendor_lge/msm8226-common" remote="github" revision="cm-13.0" />
     <project path="kernel/lge/msm8226" name="relyt2012/android_kernel_lge_msm8226" remote="github" revision="cm-13.0" />
 </manifest>
