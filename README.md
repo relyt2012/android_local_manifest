@@ -11,4 +11,4 @@ Pull tesla repo-->https://github.com/Tesla-M/manifest   Follow these instruction
 
 Then use this either after you repo sync or after you init the tesla-m repo.
 
-curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/vm03/android_local_manifest/cm-13.0/local_manifest.xml
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/relyt2012/android_local_manifest/tesla-6.0/manifest.xml
