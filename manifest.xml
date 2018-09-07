@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <project path="device/lge/w5" name="relyt2012/android_device_lge_w5" remote="github" revision="tesla-6.0" />
-     <project path="device/lge/msm8226-common" name="relyt2012/android_device_lge_msm8226-common" remote="github" revision="tesla-6.0" />
-     <project path="vendor/lge/w5" name="relyt2012/proprietary_vendor_lge/w5" remote="github" revision="cm-13.0" />
-     <project path="kernel/lge/msm8226" name="zlaja/android_kernel_lge_msm8226" remote="github" revision="cm-13.0" />
+     <project path="device/motorola/shamu" name="relyt2012/device_moto_shamu" remote="github" revision="p" />
+     <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="p" />
+     <project path="kernel/motorola/shamu" name="amcory/android_kernel_moto_shamu" remote="github" revision="p" />
 </manifest>
