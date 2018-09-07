@@ -5,6 +5,12 @@ For starters you will need a build environment
 I have used this guide for several years, however I use Linux Mint 
 [Build Guide](https://nathanpfry.com/how-to-setup-ubuntu-16-04-lts-xenial-xerus-to-compile-android-roms/)
 
+#### I also just found out that you'll need to add this also - After that guide above
+
+```
+sudo apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip zlib1g-dev git python
+```
+
 #### When you have that setup, you'll need to setup the repo you want to build - We are using AOSP X
 ```
   repo init -u git://github.com/AospExtended/manifest.git -b 9.x
