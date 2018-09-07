@@ -12,6 +12,7 @@ sudo apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential cu
 ```
 
 #### When you have that setup, you'll need to setup the repo you want to build - We are using AOSP X
+#### Repo size for AOSP Extended is around 30-35GB
 ```
   repo init -u git://github.com/AospExtended/manifest.git -b 9.x
 ```
