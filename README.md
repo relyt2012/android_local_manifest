@@ -30,11 +30,10 @@ sudo apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential cu
 #### To build there are quite a few commands you can use, I try to get brunch working - So for the sake of this, I will be using brunch
 ```
   . build/envsetup.sh
-  brunch_shamu-userdebug
+  lunch_shamu-userdebug
 
-  If that doesn't work, you can use lunch
-  lunch aosp_shamu-userdebug
-  mka -j4
+  This also works!!!
+  . build/envsetup.sh && lunch_shamu-userdebug && mka aex -j16
 ```
 
 #### If all is successful, you should be using your new rom! - Building takes some time though, it isn't something I'd recommend if you don't have much time as it is
