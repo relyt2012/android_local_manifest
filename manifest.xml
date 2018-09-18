@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <project path="device/motorola/shamu" name="relyt2012/device_moto_shamu" remote="github" revision="p" />
-     <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="p" />
-     <project path="kernel/motorola/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="p" />
-     <project path="hardware/qcom/display" name="relyt2012/platform_hardware_qcom_display" remote="github" revision="p" />
+     <project path="device/motorola/shamu" name="relyt2012/device_moto_shamu" remote="github" revision="e" />
+     <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="n" />
+     <project path="kernel/motorola/shamu" name="LineageOS/android_kernel_moto_shamu" remote="github" revision="cm-14.1" />
 </manifest>
